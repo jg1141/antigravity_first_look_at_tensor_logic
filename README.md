@@ -23,4 +23,22 @@ Output Y: [0.58437969 0.68674208]
 
 Manual Verification: [0.58437969 0.68674208]
 Verification Successful!
+
+% python demo_family.py 
+=== Tensor Logic Family Relations Demo ===
+Executing: Aunt[x,z] = step(Sister[x,y] * Parent[y,z])
+Einsum: xy,yz->xz
+Computed Aunt:
+[[0 0 1 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]
+
+Aunt Relation Matrix:
+[[0 0 1 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]
+
+Result: Ann is the Aunt of Charlie
 ```
